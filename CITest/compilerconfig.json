@@ -1,0 +1,9 @@
+﻿[
+  {
+    "outputFile": "Content/TestMain.css",
+    "inputFile": "Content/TestMain.scss",
+    "minify": {
+      "enabled": true
+    }
+  }
+]
