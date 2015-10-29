@@ -1,4 +1,5 @@
-﻿@{
+﻿@using TestLibrary
+@{
     ViewBag.Title = "Home Page";
 }
 
@@ -41,31 +42,33 @@
 
     <table class="dataTable">
         <thead>
-            <tr>
-                <th>No</th>
-                <th>Description</th>
-                <th>Text</th>
-            </tr>
+        <tr>
+            <th>No</th>
+            <th>Description</th>
+            <th>Text</th>
+        </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>1</td>
-                <td>asdfasdf asdf asd fasd fasd fasd </td>
-                <td>asdfasdf asdf asd fasd fasd fasd </td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>asghjk fasd fasd </td>
-                <td>asghjkd</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>avbnm fasd fasd fasd </td>
-                <td>asrtyuasd fasd fasd </td>
-            </tr>
+        <tr>
+            <td>1</td>
+            <td>asdfasdf asdf asd fasd fasd fasd </td>
+            <td>asdfasdf asdf asd fasd fasd fasd </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>asghjk fasd fasd </td>
+            <td>asghjkd</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>avbnm fasd fasd fasd </td>
+            <td>asrtyuasd fasd fasd </td>
+        </tr>
         </tbody>
     </table>
 </div>
+
+@TestSettings.Default.TestParam1
 
 @section scripts {
     <script>

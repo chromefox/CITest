@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITest", "CITest\CITest.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CITest2", "CITest2\CITest2.csproj", "{574FBC5B-90D3-4AC8-81C6-22090C5016C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibrary", "TestLibrary\TestLibrary.csproj", "{3039E9CA-97C8-4BA3-984B-19DF1BF78659}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{574FBC5B-90D3-4AC8-81C6-22090C5016C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{574FBC5B-90D3-4AC8-81C6-22090C5016C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{574FBC5B-90D3-4AC8-81C6-22090C5016C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3039E9CA-97C8-4BA3-984B-19DF1BF78659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3039E9CA-97C8-4BA3-984B-19DF1BF78659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3039E9CA-97C8-4BA3-984B-19DF1BF78659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3039E9CA-97C8-4BA3-984B-19DF1BF78659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
